@@ -9,7 +9,6 @@ The dataset, sourced from "Apartments_information.csv", contains information abo
 **📦 Warehouse:** Availability of a warehouse (True/False).  
 **🛗 Elevator:** Availability of an elevator (True/False).  
 **🏙️ Address:** Apartment address (categorical, later encoded).  
-**💵 Price:** Price in local currency (float).  
 **💲 Price(USD):** Price in USD (float).
 
 Initial size: 3479 rows; after preprocessing: 3452 rows.
@@ -25,12 +24,11 @@ Initial size: 3479 rows; after preprocessing: 3452 rows.
 
 **Algorithm**: Linear Regression (sklearn.linear_model.LinearRegression)  
 **Features:**  
-🛏️ Room  
+🛏️ Room 
 📏 Area
-🚗 Parking  
-📦 Warehouse  
+🚗 Parking
+📦 Warehouse
 🏙️ Address_encoded
-
 
 **Target:** Price 
 

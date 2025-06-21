@@ -3,14 +3,14 @@ This project uses linear regression to predict house prices in Tehran based on a
 ## Dataset 📊
 The dataset, sourced from "Apartments_information.csv", contains information about apartments in Tehran with the following columns:  
 
-**🏠 Area**: Apartment area in square meters (initially string, converted to float).  
-**🛏️ Room**: Number of rooms (integer).  
-**🚗 Parking**: Availability of parking (True/False).  
-**📦 Warehouse**: Availability of a warehouse (True/False).  
-**🛗 Elevator**: Availability of an elevator (True/False).  
-**🏙️ Address**: Apartment address (categorical, later encoded).  
-**💵 Price**: Price in local currency (float).  
-**💲 Price(USD)**: Price in USD (float).
+**🏠 Area:** Apartment area in square meters (initially string, converted to float).  
+**🛏️ Room:** Number of rooms (integer).  
+**🚗 Parking:** Availability of parking (True/False).  
+**📦 Warehouse:** Availability of a warehouse (True/False).  
+**🛗 Elevator:** Availability of an elevator (True/False).  
+**🏙️ Address:** Apartment address (categorical, later encoded).  
+**💵 Price:** Price in local currency (float).  
+**💲 Price(USD):** Price in USD (float).
 
 Initial size: 3479 rows; after preprocessing: 3452 rows.
 ## Preprocessing ⚙️
@@ -24,7 +24,7 @@ Initial size: 3479 rows; after preprocessing: 3452 rows.
 ## Model 🧠
 
 **Algorithm**: Linear Regression (sklearn.linear_model.LinearRegression)  
-**Features**:  
+**Features:**  
 🛏️ Room  
 📏 Area
 🚗 Parking  
@@ -32,8 +32,9 @@ Initial size: 3479 rows; after preprocessing: 3452 rows.
 🏙️ Address_encoded
 
 
-**Target**: Price 
-**Evaluation**: 5-fold cross-validation (KFold, shuffle=True, random_state=42)
+**Target:** Price 
+
+**Evaluation:** 5-fold cross-validation (KFold, shuffle=True, random_state=42)
 
 ## Results 📈
 

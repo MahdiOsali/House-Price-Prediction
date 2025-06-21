@@ -24,11 +24,11 @@ Initial size: 3479 rows; after preprocessing: 3452 rows.
 
 **Algorithm**: Linear Regression (sklearn.linear_model.LinearRegression)  
 **Features:**  
-🛏️ Room 
-📏 Area
-🚗 Parking
-📦 Warehouse
-🏙️ Address_encoded
+ 🛏️ Room 
+ 📏 Area
+ 🚗 Parking
+ 📦 Warehouse
+ 🏙️ Address_encoded
 
 **Target:** Price 
 

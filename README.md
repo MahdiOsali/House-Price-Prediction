@@ -59,11 +59,7 @@ Initial size: 3479 rows; after preprocessing: 3452 rows.
 
 - The model explains ~85.6% of the variance in `Price_log` (R² = 0.856), indicating a strong fit.
 - The MSE of 0.166 on the log scale suggests reasonable prediction accuracy.
-- A Pearson correlation of 0.81 between `Area` and `Price` highlights a strong positive relationship, visualized in the scatter plot below:
-
-![Scatter Plot of Area_log vs Price_log](path/to/scatter_plot.png)
-
-*(Note: Save the scatter plot from the notebook and update the path.)*
+- A Pearson correlation of 0.81 between `Area` and `Price` highlights a strong positive relationship.
 
 ## Usage
 

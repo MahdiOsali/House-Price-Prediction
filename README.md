@@ -1,5 +1,4 @@
-# House-Price-Prediction
-In this project, a model for predicting house prices has been created using regression.
+
 # House Price Prediction in Tehran
 
 This project uses linear regression to predict house prices in Tehran based on apartment features such as area, number of rooms, parking availability, warehouse availability, and address.
